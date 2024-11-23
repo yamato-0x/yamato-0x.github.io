@@ -1,0 +1,49 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Background Styling */
+body {
+    background-color: #6a0dad; /* Purple background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Center Container */
+.container {
+    text-align: center;
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #6a0dad;
+}
+
+/* Login Button */
+#login-button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+#login-button:hover {
+    background-color: #5500a6; /* Darker purple on hover */
+    transform: scale(1.05);
+}
